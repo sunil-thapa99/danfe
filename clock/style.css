@@ -1,17 +1,11 @@
 /* Layout */
 .main {
-    display: flex;
-    padding: 2em;
+    /*display: flex;*/
+    /*padding: 2em;*/
     height: 90vh;
-    justify-content: center;
-    align-items: middle;
+    display: inline-flex;
+    flex-direction: row;
 }
-
-.clockbox,
-#clock {
-    width: 100%;
-}
-
 /* Clock styles */
 .circle {
     fill: none;
@@ -64,3 +58,4 @@
     transform-origin: 300px 300px;
     transition: transform .5s ease-in-out;
 }
+
