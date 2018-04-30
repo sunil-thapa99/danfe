@@ -1,15 +1,19 @@
 /* Layout */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #333;
+}
 .main {
-    /*display: flex;*/
-    /*padding: 2em;*/
-    height: 90vh;
     display: inline-flex;
     flex-direction: row;
 }
 /* Clock styles */
 .circle {
     fill: none;
-    stroke: #ca9b47;
+    stroke: #e9e9e9;
     stroke-width: 9;
     stroke-miterlimit: 10;
 }
@@ -40,7 +44,7 @@
 
 .second-arm {
     fill: none;
-    stroke: #333;
+    stroke: #e9e9e9;
     stroke-width: 4;
     stroke-miterlimit: 10;
 }
@@ -58,4 +62,7 @@
     transform-origin: 300px 300px;
     transition: transform .5s ease-in-out;
 }
-
+.digital{
+    padding-left: 20px;
+    color: #e9e9e9;
+}
